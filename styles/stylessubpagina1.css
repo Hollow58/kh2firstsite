@@ -1,28 +1,28 @@
 /* Custom Fonts */
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu.woff2') format('woff2');
+    src: url('../fonts/KHMenu.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-Bold.woff2') format('woff2');
+    src: url('../fonts/KHMenu-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-Italic.woff2') format('woff2');
+    src: url('../fonts/KHMenu-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-BoldItalic.woff2') format('woff2');
+    src: url('../fonts/KHMenu-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
 }
@@ -60,6 +60,9 @@ body {
     font-family: 'KHMenu', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header Styles */

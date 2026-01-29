@@ -1,5 +1,6 @@
 const infoBoxes = document.querySelectorAll('.info-box');
 const hoverSound = document.getElementById('hover-sound');
+hoverSound.volume = 0.3;
 
 infoBoxes.forEach(box => {
     box.addEventListener('mouseenter', () => {

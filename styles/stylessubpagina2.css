@@ -1,33 +1,33 @@
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu.woff2') format('woff2');
+    src: url('../fonts/KHMenu.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-Bold.woff2') format('woff2');
+    src: url('../fonts/KHMenu-Bold.woff2') format('woff2');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-Italic.woff2') format('woff2');
+    src: url('../fonts/KHMenu-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'KHMenu';
-    src: url('/Tugra/fonts/KHMenu-BoldItalic.woff2') format('woff2');
+    src: url('../fonts/KHMenu-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'KHGummi';
-    src: url('/Tugra/fonts/KHGummi.woff2') format('woff2');
+    src: url('../fonts/KHGummi.woff2') format('woff2');
     font-weight: normal;
 }
 
@@ -55,6 +55,9 @@
 body {
     font-family: 'KHMenu', sans-serif;
     background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -127,10 +130,9 @@ footer {
 
 main {
     padding-top: 100px;
-    min-height: calc(100vh - 100px - 40px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding-bottom: 60px;
+    min-height: calc(100vh - 140px);
+    flex: 1;
 }
 
 .games-container {

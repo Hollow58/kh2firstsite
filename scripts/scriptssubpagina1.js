@@ -1,6 +1,7 @@
 let soraSelectCount = 0;
 let isRoxas = false;
-const selectSound = new Audio('./sounds/SelectKH2.mp3'); 
+const selectSound = new Audio('./sounds/SelectKH2.mp3');
+selectSound.volume = 0.3; 
 
 function selectCharacter(characterNumber) {
     selectSound.currentTime = 0;
